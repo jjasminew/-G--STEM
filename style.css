@@ -509,7 +509,8 @@ img {vertical-align: middle;}
 .problemDescription{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 15%;
+  margin-right: 18%;
+  line-height: 165%
 }
 
 .findingsTitle1{
@@ -520,7 +521,26 @@ img {vertical-align: middle;}
 .findingsParagraph1{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 15%;
+  margin-right: 18%;
+  line-height: 165%
+}
+
+li{
+  padding-bottom: 3%
+}
+
+.findingsParagraph2{
+  font-family: 'Nunito', sans-serif; 
+  color: #414a4c;
+  margin-right: 18%;
+  line-height: 165%
+}
+
+.findingsParagraph3{
+  font-family: 'Nunito', sans-serif; 
+  color: #414a4c;
+  margin-right: 18%;
+  line-height: 165%
 }
 
 
@@ -556,28 +576,28 @@ img {vertical-align: middle;}
 }
 
 .dataChart1{
-  margin-left: 8%;
+  margin-left: 5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #F39A9D;
 }
 
 .dataChart2{
-  margin-left: 8%;
+  margin-left: 5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #A6CCCE;
 }
 
 .dataChart3{
-  margin-left: 8%;
+  margin-left: 5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #F8D78C;
 }
 
 .dataChart4{
-  margin-left: 8%;
+  margin-left: 5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #7D7DA1;
