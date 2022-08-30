@@ -5,17 +5,19 @@ html, body {
   padding:0;
 }
 
-.gStem{
-  font-size: 900%;
+/* css for responsive website on computer */
+@media screen and (min-width: 601px) {
+  .gStem{
+  font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
   color: #FFFFFF;
   background-color: #7D7DA1;
   padding: 14%;
   margin-top: 0!important;
-}
-
-.homeTitle{
+  } 
+  
+  .homeTitle{
   font-size: 50px;
   font-family: 'Istok Web', sans-serif; 
   text-align: center;
@@ -57,14 +59,14 @@ html, body {
 }
 
 .actionTitle{
-  font-size: 900%;
+  font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
   color: #FFFFFF;
   background-color: #7D7DA1;
   padding: 14%;
   margin-top: 0!important;
-}
+  } 
 
 .anyoneTitle{
   font-size: 70px;
@@ -87,6 +89,110 @@ html, body {
   color: #F8D78C;
 }
 
+.allPercents {
+    font-size: 4vw;
+}
+  
+.allDescription {
+    font-size: 1.4vw;
+}
+  
+}
+
+/* css for responsive website on phone */
+@media screen and (max-width: 600px) {
+  .gStem{
+  font-size: 70px;
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7D7DA1;
+  padding: 14%;
+  margin-top: 0!important;
+  }
+
+  .homeTitle{
+  font-size: 30px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #F39A9D
+}
+
+.homeDescript{
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+  
+.navBar{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 0!important;
+}
+
+.navBar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-decoration: none;
+  font-size: 12px;
+  border: 0px;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #F39A9D;
+  text-underline-position: under;
+  text-decoration-thickness: 2.5px;
+}
+
+.actionTitle{
+  font-size: 70px;
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7D7DA1;
+  padding: 14%;
+  margin-top: 0!important;
+  }
+
+.anyoneTitle{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #A6CCCE;
+}
+
+.studentTitle{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #F39A9D;
+}
+
+.schoolTitle{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #F8D78C;
+}
+
+.allPercents {
+    font-size: 30px;
+  }
+
+.allDescription {
+    font-size: 15px;
+  }
+}
+
+/* css for responsive website on computer */
 @media screen and (min-width: 1171px) {
   .anyoneInfo{
   display: flex;
@@ -229,10 +335,9 @@ html, body {
   padding-bottom: 10%;
   margin-right: 2%;
 }
-
 }
 
-
+/* css for responsive website on phone */
 @media screen and (max-width: 1170px) {
 .anyoneInfo{
   display: flex;
@@ -372,7 +477,28 @@ html, body {
   padding-bottom: 10%;
   margin-bottom: 5%
 }
+}
 
+@media screen and (min-width: 1001px) {
+  .allFindingsTitle {
+    font-size: 20px;
+    padding-left: 3%;
+  }
+
+  .allFindingsParagraphs {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .allFindingsTitle {
+    font-size: 15px;
+    padding-left: 3%;
+  }
+  
+  .allFindingsParagraphs {
+    font-size: 80%;
+  }
 }
 
 .anyoneInfo1:hover{
@@ -466,8 +592,6 @@ html, body {
   display: table;
 }
 
-
-
 .meetTitle{
   font-size: 100px;
   font-family: 'Istok Web', sans-serif;
@@ -500,23 +624,6 @@ html, body {
   padding-bottom: 12%;
 }
 
-.exRowBoxes{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-family: 'Nunito', sans-serif;
-  color: #414a4c;
-}
-
-.exBoxes{
-  background-color: #89BBBE;
-  border-radius: 20px;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 .firstPercent {
   padding-left: 9%;
   font-family: 'Istok Web', sans-serif; 
@@ -532,32 +639,6 @@ html, body {
   font-family: 'Nunito', sans-serif;
   display: flex;
   align-items: flex-start;
-}
-
-@media screen and (min-width: 601px) {
-  .allPercents {
-    font-size: 4vw;
-  }
-}
-
-
-@media screen and (max-width: 600px) {
-  .allPercents {
-    font-size: 25px;
-  }
-}
-
-
-@media screen and (min-width: 601px) {
-  .allDescription {
-    font-size: 1.3vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .allDescription {
-    font-size: 15px;
-  }
 }
 
 .secondPercent {
@@ -594,33 +675,6 @@ html, body {
   align-items: flex-start;
 }
 
-@media screen and (min-width: 601px) {
-  .allFindingsTitle {
-    font-size: 100%;
-    padding-left: 3%;
-  }
-}
-
-
-@media screen and (max-width: 600px) {
-  .allFindingsTitle {
-    font-size: 15px;
-    padding-left: 3%;
-  }
-}
-
-@media screen and (min-width: 601px) {
-  .allFindingsParagraphs {
-    font-size: 1.1vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .allFindingsParagraphs {
-    font-size: 75%;
-  }
-}
-
 .problemTitle{
   font-family: 'Istok Web', sans-serif; 
   color: #F39A9D;
@@ -630,7 +684,7 @@ html, body {
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
   margin-right: 18%;
-  line-height: 165%
+  line-height: 150%;
 }
 
 .findingsTitle1{
@@ -642,7 +696,7 @@ html, body {
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
   margin-right: 18%;
-  line-height: 165%
+  line-height: 150%;
 }
 
 li{
@@ -653,14 +707,14 @@ li{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
   margin-right: 18%;
-  line-height: 165%
+  line-height: 150%;
 }
 
 .findingsParagraph3{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
   margin-right: 18%;
-  line-height: 165%
+  line-height: 150%;
 }
 
 
@@ -721,4 +775,29 @@ li{
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #7D7DA1;
+}
+
+
+.data1{
+  border: none;
+  width: 52vw; 
+  height: 20vw;
+}
+
+.data2{
+  border: none;
+  width: 52vw; 
+  height: 20vw;
+}
+
+.data3{
+  border: none;
+  width: 52vw; 
+  height: 20vw;
+}
+
+.data4{
+  border: none;
+  width: 52vw; 
+  height: 20vw;
 }
