@@ -683,8 +683,8 @@ html, body {
 .problemDescription{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 18%;
-  line-height: 150%;
+  margin-right: 15%;
+  line-height: 155%;
 }
 
 .findingsTitle1{
@@ -695,26 +695,26 @@ html, body {
 .findingsParagraph1{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 18%;
-  line-height: 150%;
+  margin-right: 15%;
+  line-height: 155%;
 }
 
 li{
-  padding-bottom: 3%
+  padding-bottom: 2%;
 }
 
 .findingsParagraph2{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 18%;
-  line-height: 150%;
+  margin-right: 15%;
+  line-height: 155%;
 }
 
 .findingsParagraph3{
   font-family: 'Nunito', sans-serif; 
   color: #414a4c;
-  margin-right: 18%;
-  line-height: 150%;
+  margin-right: 15%;
+  line-height: 155%;
 }
 
 
@@ -750,28 +750,28 @@ li{
 }
 
 .dataChart1{
-  margin-left: 5%;
+  margin-left: 3.5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #F39A9D;
 }
 
 .dataChart2{
-  margin-left: 5%;
+  margin-left: 3.5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #A6CCCE;
 }
 
 .dataChart3{
-  margin-left: 5%;
+  margin-left: 3.5%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #F8D78C;
 }
 
 .dataChart4{
-  margin-left: 5%;
+  margin-left: 4%;
   margin-bottom: 2%;
   border: solid 30px;
   border-color: #7D7DA1;
