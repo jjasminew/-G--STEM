@@ -94,7 +94,7 @@ html, body {
 }
   
 .allDescription {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
   
 }
@@ -184,7 +184,7 @@ html, body {
 }
 
 .allPercents {
-    font-size: 25.5px;
+    font-size: 24.5px;
   }
 
 .allDescription {
@@ -669,7 +669,7 @@ html, body {
   padding-top: 7%;
   padding-left: 6%;
   padding-right: 9%;
-  padding-bottom: 3%;
+  padding-bottom: 7%;
   font-family: 'Nunito', sans-serif;
   display: flex;
   align-items: flex-start;
