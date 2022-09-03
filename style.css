@@ -5,29 +5,39 @@ html, body {
   padding:0;
 }
 
-.logo{
-  width: 60px;
-  height:80px;
-  padding: 0;
-}
-
 /* css for responsive website on computer */
 @media screen and (min-width: 601px) {
   .gStem{
-  font-size: 140px;
+  font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 14rem;
+  text-align: center;
+  color: #F39A9D;
+  text-shadow:
+    5px 5px 0px #f7dfdf,
+    20px 20px 0px #6c6383;
+  cursor: pointer;
+ /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFFFFF;*/
   background-color: #7D7DA1;
-  padding: 14%;
+  padding: 8%;
   margin-top: 0!important;
   } 
-  
+
+  .gStem:hover{
+    -webkit-text-stroke: 4.5px #ffffff;
+    color: transparent;
+    text-shadow: none;
+  }
+
   .homeTitle{
   font-size: 50px;
   font-family: 'Istok Web', sans-serif; 
   text-align: center;
-  color: #F39A9D
+  color: #F39A9D;
 }
 
 .homeDescript{
@@ -36,6 +46,15 @@ html, body {
   text-align: center;
   padding-left: 21%;
   padding-right: 21%;
+}
+
+.logo{
+  width: 58px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 
 .navBar{
@@ -108,13 +127,29 @@ html, body {
 /* css for responsive website on phone */
 @media screen and (max-width: 600px) {
   .gStem{
-  font-size: 70px;
+  font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 5rem;
+  text-align: center;
+  color: #F39A9D;
+  text-shadow:
+    3px 3px 0px #f7dfdf,
+    10px 10px 0px #6c6383;
+  cursor: pointer;
+ /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFFFFF;*/
   background-color: #7D7DA1;
-  padding: 14%;
+  padding: 8%;
   margin-top: 0!important;
+  } 
+
+  .gStem:hover{
+    -webkit-text-stroke: 2px #ffffff;
+    color: transparent;
+    text-shadow: none;
   }
 
   .homeTitle{
@@ -130,6 +165,15 @@ html, body {
   text-align: center;
   padding-left: 21%;
   padding-right: 21%;
+}
+
+.logo{
+  width: 25px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
   
 .navBar{
@@ -522,7 +566,7 @@ html, body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-45deg, #b3b3e6 0%, #fe397e 100% );
+    background: linear-gradient(-60deg, #b3b3e6 0%, #fe397e 100% );
     transform: translate3d(0px, 20px, 0) scale(0.95);
     filter: blur(20px);
     opacity: var(0.7);
