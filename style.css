@@ -15,9 +15,8 @@ html, body {
   text-align: center;
   color: #F39A9D;
   text-shadow:
-    5px 5px 0px #f7dfdf,
+    7px 7px 0px #f7dfdf,
     20px 20px 0px #6c6383;
-  cursor: pointer;
  /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
@@ -26,12 +25,6 @@ html, body {
   padding: 8%;
   margin-top: 0!important;
   } 
-
-  .gStem:hover{
-    -webkit-text-stroke: 4.5px #ffffff;
-    color: transparent;
-    text-shadow: none;
-  }
 
   .homeTitle{
   font-size: 50px;
@@ -136,7 +129,6 @@ html, body {
   text-shadow:
     3px 3px 0px #f7dfdf,
     10px 10px 0px #6c6383;
-  cursor: pointer;
  /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
@@ -544,19 +536,45 @@ html, body {
 
   /* Use  your own styles here */
   margin: 45px;
-  width: 473px;
-  height: 250px;  
+  width: 473px; /*500*/
+  height: 250px;  /*270*/
 
   text-align: left;
   font-family: 'Nunito', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 3%;
   padding-top: 4%;
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
+
+  /*
+  --b: 8px;  /* border thickness*/
+  /*--s: 60px; /* size of the corner*/
+ /* --g: 14px; /* the gap*/
+  /*--c: #F5B9BB; 
+  
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
 }
 
+/*.box:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
+}*/
+  
 /* This is what creates the shadow. */
 .box:before {
     content: "";
@@ -566,7 +584,7 @@ html, body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-60deg, #b3b3e6 0%, #fe397e 100% );
+    background: linear-gradient(-45deg, #b3b3e6 0%, #fe397e 100%); /*#bdbdbd       0%, #bdbdbd 100% */
     transform: translate3d(0px, 20px, 0) scale(0.95);
     filter: blur(20px);
     opacity: var(0.7);
