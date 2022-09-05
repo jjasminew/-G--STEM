@@ -13,9 +13,9 @@ html, body {
   font-variation-settings: "wght" 700;
   font-size: 14rem;
   text-align: center;
-  color: #F39A9D;
+  color: #ffffff;
   text-shadow:
-    7px 7px 0px #f7dfdf,
+    7px 7px 0px #F39A9D,
     20px 20px 0px #6c6383;
  /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
@@ -125,10 +125,10 @@ html, body {
   font-variation-settings: "wght" 700;
   font-size: 5rem;
   text-align: center;
-  color: #F39A9D;
+  color: #FFFFFF;
   text-shadow:
-    3px 3px 0px #f7dfdf,
-    10px 10px 0px #6c6383;
+    3px 3px 0px #F39A9D,
+    8px 8px 0px #6c6383;
  /*font-size: 140px;
   font-family: 'Istok Web', sans-serif;
   text-align: center;
@@ -137,12 +137,6 @@ html, body {
   padding: 8%;
   margin-top: 0!important;
   } 
-
-  .gStem:hover{
-    -webkit-text-stroke: 2px #ffffff;
-    color: transparent;
-    text-shadow: none;
-  }
 
   .homeTitle{
   font-size: 30px;
@@ -1067,4 +1061,97 @@ li{
   border: none;
   width: 52vw; 
   height: 20vw;
+}
+
+.resourceTitle{
+  font-size: 140px;
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #A6CCCE;
+  padding: 14%;
+  margin-top: 0!important;
+  }
+
+.subResourceTitle1{
+  font-size: 40px;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.programPic{
+  float: left;
+  height: 370px;
+  width: 570px;
+  background-color: #A6CCCE;
+}
+
+.programPicAlign{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subResourceTitle2{
+  font-size: 40px;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.summerDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.compSciPic{
+  float: right;
+  height: 370px;
+  width: 570px;
+}
+
+.compSciPicAlign{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+
+.exploreCompSciDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+}
+
+.subResourceTitle3{
+  font-size: 40px;
+  font-family: 'Istok Web', sans-serif;
+}
+
+.engPic{
+  float: left;
+  height: 370px;
+  width: 570px
+}
+
+.engPicAlign{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exploreEngDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+}
+
+.resourceHeader{
+  font-size: 70px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #A6CCCE;
+}
+
+.roleModels{
+  display: flex;
+  flex-direction: inverse-row;
+  width: 500px;
+  height: 500px;
 }
