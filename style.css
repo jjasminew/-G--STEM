@@ -114,7 +114,248 @@ html, body {
 .allDescription {
     font-size: 1.3vw;
 }
-  
+
+.resourceTitle{
+  font-size: 140px;
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #A6CCCE;
+  padding: 14%;
+  margin-top: 0!important;
+  }
+
+.subResourceTitle1{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif;
+  color: #A6CCCE;
+}
+
+.programPic{
+  float: left;
+  height: 370px;
+  width: 570px;
+}
+
+.programPicAlign{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.subResourceTitle2{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif;
+  color: #A6CCCE;
+}
+
+.summerDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.compSciPic{
+  float: right;
+  height: 370px;
+  width: 570px;
+}
+
+.compSciPicAlign{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+
+.exploreCompSciDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+}
+
+.subResourceTitle3{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif;
+    color: #A6CCCE;
+}
+
+.engPic{
+  float: left;
+  height: 370px;
+  width: 570px
+}
+
+.engPicAlign{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exploreEngDescription{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+}
+
+.roleModels{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rolemodelpics {
+  display: inline-flex;
+}
+
+.rmpics {
+  height: 380px;
+  width: 380px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.overlay {
+  border-radius: 50%;
+  position: absolute;
+  height: 380px;
+  width: 380px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A6CCCE;
+}
+
+.rolemodelpics:hover .overlay {
+  opacity: 1;
+}
+
+.gracebio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.joanbio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.roleModelsName{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 27px;
+}
+
+.tierabio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.resourceHeader{
+  font-size: 70px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #A6CCCE;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+  .womenJoin {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	padding: 1rem;
+	background-color: transparent;
+	background-image: linear-gradient(
+			-45deg,
+			transparent,
+			transparent 2%,
+			white 2%,
+			white 85%,
+			transparent,
+			85%,
+			transparent
+		),
+		linear-gradient(to bottom right, #A6CCCE, #A6CCCE 90%, transparent 90%);
+	background-position: top left, 0.2em 0.2em;
+	background-repeat: no-repeat;
+	filter: drop-shadow(0 0 8px #0005);
+}
+
+.womenJoin::before,
+.womenJoin::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	width: 3rem;
+	height: 4rem;
+	content: "";
+	z-index: 0;
+	font-size: 5.5rem;
+	font-family: 'Istok Web', sans-serif;
+}
+
+.womenJoin::before {
+	top: -2rem;
+	left: 1rem;
+	content: open-quote;
+}
+
+.womenJoin::after {
+	bottom: -1rem;
+	right: 1rem;
+	content: close-quote;
+}
+
+.womenJoin::before,
+.womenJoin::after,
+.womenJoin{
+	text-shadow: -2px 2px #fff, -1.5px 1.5px #fff, -1px 1px #fff, -0.5px 0.5px #fff;
+}
+
+.womenQuote {
+	margin-block-start: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+}
+
+.womenName{
+	text-align: right;
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+}
+
+.womenJoin1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.womenJoin2{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
 }
 
 /* css for responsive website on phone */
@@ -226,6 +467,249 @@ html, body {
 .allDescription {
     font-size: 17px;
   }
+
+.resourceTitle{
+  font-size: 60px;
+  font-family: 'Istok Web', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #A6CCCE;
+  padding: 14%;
+  margin-top: 0!important;
+  }
+
+.subResourceTitle1{
+  font-size: 30px;
+  font-family: 'Istok Web', sans-serif;
+  color: #A6CCCE;
+}
+
+.summerDescriptionList{
+  text-align: center;
+}
+
+.programPic{
+  height: 250px;
+  width: 370px;
+}
+  
+.programPicAlign1{
+  display: flex;
+  justify-content: center;
+}
+
+.summerDescription{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.subResourceTitle2{
+  font-size: 30px;
+  font-family: 'Istok Web', sans-serif;
+  color: #A6CCCE;
+}
+
+
+.compSciPic{
+  float: right;
+  height: 250px;
+  width: 370px;
+}
+
+.compSciPicAlign1{
+  display: flex;
+  justify-content: center;
+}
+  
+.compSciPicAlign{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.exploreCompSciDescription{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.subResourceTitle3{
+  font-size: 30px;
+  font-family: 'Istok Web', sans-serif;
+    color: #A6CCCE;
+}
+
+.engPic{
+  float: left;
+  height: 250px;
+  width: 370px
+}
+
+.engPicAlign1{
+  display: flex;
+  justify-content: center;
+}
+  
+.engPicAlign{
+  margin-top: 10%;
+}
+
+.exploreEngDescription{
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+  list-style-position: inside;
+  text-align: center;
+}
+  
+.rolemodelpics {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.rmpics {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.overlay {
+  border-radius: 50%;
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A6CCCE;
+}
+
+.rolemodelpics:hover .overlay {
+  opacity: 1;
+}
+
+.gracebio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.joanbio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.roleModelsName{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 22px;
+}
+
+.tierabio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.resourceHeader{
+  font-size: 45px;
+  font-family: 'Istok Web', sans-serif; 
+  text-align: center;
+  color: #A6CCCE;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.womenJoin {
+	position: relative;
+	width: 400px;
+	height: 200px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 10%;
+	padding: 1rem;
+	background-color: transparent;
+	background-image: linear-gradient(
+			-45deg,
+			transparent,
+			transparent 2%,
+			white 2%,
+			white 85%,
+			transparent,
+			85%,
+			transparent
+		),
+		linear-gradient(to bottom right, #A6CCCE, #A6CCCE 90%, transparent 90%);
+	background-position: top left, 0.2em 0.2em;
+	background-repeat: no-repeat;
+	filter: drop-shadow(0 0 8px #0005);
+}
+
+.womenJoin::before,
+.womenJoin::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	width: 3rem;
+	height: 4rem;
+	content: "";
+	z-index: 0;
+	font-size: 4rem;
+	font-family: 'Istok Web', sans-serif;
+}
+
+.womenJoin::before {
+	top: -1.5rem;
+	left: 1rem;
+	content: open-quote;
+}
+
+.womenJoin::after {
+	bottom: -2rem;
+	right: 0rem;
+	content: close-quote;
+}
+
+.womenJoin::before,
+.womenJoin::after,
+.womenJoin{
+	text-shadow: -2px 2px #fff, -1.5px 1.5px #fff, -1px 1px #fff, -0.5px 0.5px #fff;
+}
+
+.womenQuote {
+	margin-block-start: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+}
+
+.womenName{
+	text-align: right;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+}
 }
 
 /* css for responsive website on computer */
@@ -530,8 +1014,8 @@ html, body {
 
   /* Use  your own styles here */
   margin: 45px;
-  width: 473px; /*500*/
-  height: 250px;  /*270*/
+  width: 500px;
+  height: 270px;
 
   text-align: left;
   font-family: 'Nunito', sans-serif;
@@ -542,11 +1026,11 @@ html, body {
   padding-left: 3%;
   padding-bottom: 3%;
 
-  /*
+  
   --b: 8px;  /* border thickness*/
-  /*--s: 60px; /* size of the corner*/
- /* --g: 14px; /* the gap*/
-  /*--c: #F5B9BB; 
+  --s: 60px; /* size of the corner*/
+ --g: 14px; /* the gap*/
+  --c: #F5B9BB; 
   
   padding: calc(var(--b) + var(--g));
   background-image:
@@ -563,11 +1047,11 @@ html, body {
     background-size .3s calc(.3s - var(--_i,.3s));*/
 }
 
-/*.box:hover{
+.box:hover{
   background-size: calc(100% - var(--g)) calc(100% - var(--g));
   --_p: calc(var(--g)/2);
   --_i: 0s;
-}*/
+}
   
 /* This is what creates the shadow. */
 .box:before {
@@ -578,7 +1062,7 @@ html, body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-45deg, #b3b3e6 0%, #fe397e 100%); /*#bdbdbd       0%, #bdbdbd 100% */
+    background: linear-gradient(-45deg, #bdbdbd 0%, #bdbdbd 100% );
     transform: translate3d(0px, 20px, 0) scale(0.95);
     filter: blur(20px);
     opacity: var(0.7);
@@ -679,6 +1163,31 @@ html, body {
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
+
+  --b: 8px;  /* border thickness*/
+  --s: 60px; /* size of the corner*/
+ --g: 14px; /* the gap*/
+  --c: #F5B9BB; 
+  
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
+}
+
+.box:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 /* This is what creates the shadow. */
@@ -690,7 +1199,7 @@ html, body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-45deg, #b3b3e6 0%, #fe397e 100% );
+    background: linear-gradient(-45deg,  #bdbdbd 0%, #bdbdbd 100%);
     transform: translate3d(0px, 20px, 0) scale(0.95);
     filter: blur(20px);
     opacity: var(0.7);
@@ -770,7 +1279,7 @@ html, body {
   }
 
   .allFindingsParagraphs {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -943,7 +1452,7 @@ html, body {
 
 .problemDescription{
   font-family: 'Nunito', sans-serif; 
-  color: #414a4c;
+  color: #000000;
   margin-right: 15%;
   line-height: 155%;
 }
@@ -955,7 +1464,7 @@ html, body {
 
 .findingsParagraph1{
   font-family: 'Nunito', sans-serif; 
-  color: #414a4c;
+  color: #000000;
   margin-right: 15%;
   line-height: 155%;
 }
@@ -966,14 +1475,14 @@ li{
 
 .findingsParagraph2{
   font-family: 'Nunito', sans-serif; 
-  color: #414a4c;
+  color: #000000;
   margin-right: 15%;
   line-height: 155%;
 }
 
 .findingsParagraph3{
   font-family: 'Nunito', sans-serif; 
-  color: #414a4c;
+  color: #000000;
   margin-right: 15%;
   line-height: 155%;
 }
@@ -1061,97 +1570,4 @@ li{
   border: none;
   width: 52vw; 
   height: 20vw;
-}
-
-.resourceTitle{
-  font-size: 140px;
-  font-family: 'Istok Web', sans-serif;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #A6CCCE;
-  padding: 14%;
-  margin-top: 0!important;
-  }
-
-.subResourceTitle1{
-  font-size: 40px;
-  font-family: 'Istok Web', sans-serif;
-}
-
-.programPic{
-  float: left;
-  height: 370px;
-  width: 570px;
-  background-color: #A6CCCE;
-}
-
-.programPicAlign{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.subResourceTitle2{
-  font-size: 40px;
-  font-family: 'Istok Web', sans-serif;
-}
-
-.summerDescription{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-}
-
-.compSciPic{
-  float: right;
-  height: 370px;
-  width: 570px;
-}
-
-.compSciPicAlign{
-  margin-top: 10%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 10%;
-}
-
-.exploreCompSciDescription{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-  list-style-position: inside;
-}
-
-.subResourceTitle3{
-  font-size: 40px;
-  font-family: 'Istok Web', sans-serif;
-}
-
-.engPic{
-  float: left;
-  height: 370px;
-  width: 570px
-}
-
-.engPicAlign{
-  margin-top: 10%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.exploreEngDescription{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-  list-style-position: inside;
-}
-
-.resourceHeader{
-  font-size: 70px;
-  font-family: 'Istok Web', sans-serif; 
-  text-align: center;
-  color: #A6CCCE;
-}
-
-.roleModels{
-  display: flex;
-  flex-direction: inverse-row;
-  width: 500px;
-  height: 500px;
 }
