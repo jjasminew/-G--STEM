@@ -1,5 +1,7 @@
 document.getElementById("dataTab").addEventListener("mouseover", mouseOverData);
 document.getElementById("dataTab").addEventListener("mouseout", mouseOutData);
+document.getElementById("resourceTab").addEventListener("mouseover", mouseOverResource);
+document.getElementById("resourceTab").addEventListener("mouseout", mouseOutResource);
 document.getElementById("actionTab").addEventListener("mouseover", mouseOverAction);
 document.getElementById("actionTab").addEventListener("mouseout", mouseOutAction);
 document.getElementById("exTab").addEventListener("mouseover", mouseOverEx);
@@ -7,12 +9,21 @@ document.getElementById("exTab").addEventListener("mouseout", mouseOutEx);
 document.getElementById("aboutTab").addEventListener("mouseover", mouseOverAbout);
 document.getElementById("aboutTab").addEventListener("mouseout", mouseOutAbout);
 
+
 function mouseOverData() {
   document.getElementById("dataTab").innerHTML = "data.exe";
 }
 
 function mouseOutData() {
   document.getElementById("dataTab").innerHTML = "Data";
+}
+
+function mouseOverResource() {
+  document.getElementById("resourceTab").innerHTML = "resources.html";
+}
+
+function mouseOutResource() {
+  document.getElementById("resourceTab").innerHTML = "Resources";
 }
 
 function mouseOverAction() {

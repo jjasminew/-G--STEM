@@ -77,12 +77,17 @@ html, body {
 }
 
 .actionTitle{
-  font-size: 140px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 12rem;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-shadow:
+    7px 7px 0px #F39A9D,
+    20px 20px 0px #6c6383;
   background-color: #7D7DA1;
-  padding: 14%;
+  padding: 8%;
   margin-top: 0!important;
   } 
 
@@ -116,25 +121,53 @@ html, body {
 }
 
 .resourceTitle{
-  font-size: 140px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 12rem;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+  text-shadow:
+    7px 7px 0px #f3cf7c,
+    20px 20px 0px #709e9e;
   background-color: #A6CCCE;
-  padding: 14%;
+  padding: 8%;
   margin-top: 0!important;
   }
 
 .subResourceTitle1{
   font-size: 45px;
   font-family: 'Istok Web', sans-serif;
-  color: #A6CCCE;
+  color: #F39A9D;
 }
 
 .programPic{
   float: left;
   height: 370px;
   width: 570px;
+  --b: 8px;  /* border thickness*/
+  --s: 60px; /* size of the corner*/
+ --g: 14px; /* the gap*/
+  --c: #F39A9D; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
+}
+
+.programPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 .programPicAlign{
@@ -145,7 +178,7 @@ html, body {
 .subResourceTitle2{
   font-size: 45px;
   font-family: 'Istok Web', sans-serif;
-  color: #A6CCCE;
+  color: #7D7DA1;
 }
 
 .summerDescription{
@@ -157,6 +190,29 @@ html, body {
   float: right;
   height: 370px;
   width: 570px;
+  --b: 8px;  /* border thickness*/
+  --s: 60px; /* size of the corner*/
+ --g: 14px; /* the gap*/
+  --c: #7D7DA1; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
+}
+
+.compSciPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 .compSciPicAlign{
@@ -175,13 +231,36 @@ html, body {
 .subResourceTitle3{
   font-size: 45px;
   font-family: 'Istok Web', sans-serif;
-    color: #A6CCCE;
+    color:  #A6CCCE;
 }
 
 .engPic{
   float: left;
   height: 370px;
-  width: 570px
+  width: 570px;
+  --b: 8px;  /* border thickness*/
+  --s: 60px; /* size of the corner*/
+ --g: 14px; /* the gap*/
+  --c:  #A6CCCE; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
+}
+
+.engPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 .engPicAlign{
@@ -430,12 +509,17 @@ html, body {
 }
 
 .actionTitle{
-  font-size: 70px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 5rem;
   text-align: center;
   color: #FFFFFF;
+  text-shadow:
+    3px 3px 0px #F39A9D,
+    8px 8px 0px #6c6383;
   background-color: #7D7DA1;
-  padding: 14%;
+  padding: 8%;
   margin-top: 0!important;
   }
 
@@ -469,19 +553,24 @@ html, body {
   }
 
 .resourceTitle{
-  font-size: 60px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 3.5rem;
   text-align: center;
   color: #FFFFFF;
-  background-color: #A6CCCE;
+  text-shadow:
+    3px 3px 0px #f3cf7c,
+    8px 8px 0px #709e9e;
   padding: 14%;
   margin-top: 0!important;
+  background-color: #A6CCCE;
   }
 
 .subResourceTitle1{
   font-size: 30px;
   font-family: 'Istok Web', sans-serif;
-  color: #A6CCCE;
+  color: #F39A9D;
 }
 
 .summerDescriptionList{
@@ -491,6 +580,29 @@ html, body {
 .programPic{
   height: 250px;
   width: 370px;
+  --b: 6px;  /* border thickness*/
+  --s: 45px; /* size of the corner*/
+ --g: 10px; /* the gap*/
+  --c: #F39A9D; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));*/
+}
+
+.programPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
   
 .programPicAlign1{
@@ -506,14 +618,36 @@ html, body {
 .subResourceTitle2{
   font-size: 30px;
   font-family: 'Istok Web', sans-serif;
-  color: #A6CCCE;
+  color: #7D7DA1;
 }
 
 
 .compSciPic{
-  float: right;
   height: 250px;
   width: 370px;
+  --b: 6px;  /* border thickness*/
+  --s: 45px; /* size of the corner*/
+ --g: 10px; /* the gap*/
+  --c: #7D7DA1; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));
+}
+
+.compSciPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 .compSciPicAlign1{
@@ -540,9 +674,31 @@ html, body {
 }
 
 .engPic{
-  float: left;
   height: 250px;
-  width: 370px
+  width: 370px;
+   --b: 6px;  /* border thickness*/
+  --s: 45px; /* size of the corner*/
+ --g: 10px; /* the gap*/
+  --c: #A6CCCE; 
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));
+}
+
+.engPic:hover{
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
 }
 
 .engPicAlign1{
@@ -1030,7 +1186,7 @@ html, body {
   --b: 8px;  /* border thickness*/
   --s: 60px; /* size of the corner*/
  --g: 14px; /* the gap*/
-  --c: #F5B9BB; 
+  --c: #F39A9D; 
   
   padding: calc(var(--b) + var(--g));
   background-image:
@@ -1124,13 +1280,18 @@ html, body {
 }
 
 .experienceTitle{
-  background-color: #F39A9D;
-  font-size: 120px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 9.5rem;
   text-align: center;
-  color: #FFFFFF;
-  padding: 14%;
+  color: #ffffff;
+  text-shadow:
+    7px 7px 0px  #7D7DA1,
+    15px 15px 0px #ec797d;
+  padding: 10%;
   margin-top: 0!important;
+  background-color: #F39A9D;
 }
 }
 
@@ -1167,7 +1328,7 @@ html, body {
   --b: 8px;  /* border thickness*/
   --s: 60px; /* size of the corner*/
  --g: 14px; /* the gap*/
-  --c: #F5B9BB; 
+  --c: #F39A9D; 
   
   padding: calc(var(--b) + var(--g));
   background-image:
@@ -1261,13 +1422,18 @@ html, body {
 }
 
 .experienceTitle{
-  background-color: #F39A9D;
-  font-size: 50px;
   font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 3.5rem;
   text-align: center;
-  color: #FFFFFF;
-  padding: 14%;
+  color: #ffffff;
+  text-shadow:
+    3px 3px 0px  #7D7DA1,
+    8px 8px 0px #ec797d;
+  padding: 10%;
   margin-top: 0!important;
+  background-color: #F39A9D;
 }
 }
 
@@ -1570,4 +1736,47 @@ li{
   border: none;
   width: 52vw; 
   height: 20vw;
+}
+
+
+.textBubble{
+  display: flex;
+  justify-content: center;
+}
+  
+p.text-bubble {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: #A6CCCE;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #777;
+  font-family: 'Nunito', sans-serif; 
+}
+
+p.text-bubble:before {
+  content: '';
+  
+  width: 0px;
+  height: 0px;
+  
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+p.text-bubble:after {
+  content: '';
+  
+  width: 0px;
+  height: 0px;
+  
+  border: 12px solid;
+  border-color: #A6CCCE transparent transparent #A6CCCE;
+  position: absolute;
+  left: 53px;
+  top: 99px;
 }
