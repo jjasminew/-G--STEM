@@ -1497,60 +1497,6 @@ html, body {
   transform: rotate(-5deg);
 }
 
-.jasmine{
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.jasminepic {
-  float: left;
-  border-radius: 50%;
-  height: 300px;
-  width: 305px;
-  border: solid 10px;
-  border-color: #A6CCCE;
-}
-
-.jasmineBio{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.jasmineBio::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.sophia {
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.sophiapic{
-  float: right;
-  border-radius: 50%;
-  height: 300px;
-  width: 305px;
-  border: solid 10px;
-  border-color: #A6CCCE;
-}
-
-.sophiaBio{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-
-.sophiaBio::after{
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .meetTitle{
   font-size: 100px;
   font-family: 'Istok Web', sans-serif;
@@ -1738,45 +1684,165 @@ li{
   height: 20vw;
 }
 
+.aboutUsTitle{
+  font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 9rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow:
+    7px 7px 0px #6eabaf,
+    17px 17px 0px #d7be84;
+  background-color: #F8D78C;
+  padding: 9%;
+  margin-top: 0!important;
+  }
 
-.textBubble{
+.allCards{
+  top: 20%;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
+  border-radius: 50%;
 }
-  
-p.text-bubble {
+
+.card {
+  width: 650px;
+  height: 400px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
   position: relative;
-  width: 300px;
-  height: 100px;
-  background-color: #A6CCCE;
-  font-size: 24px;
-  line-height: 100px;
+  margin: 1.5rem;
+}
+
+.card h1 {
   text-align: center;
-  border-radius: 15px;
-  box-shadow: 5px 5px 10px #777;
-  font-family: 'Nunito', sans-serif; 
+  font-family: 'Istok Web', sans-serif;
+  text-transform: uppercase;
+  font-size: 33px;
 }
 
-p.text-bubble:before {
-  content: '';
-  
-  width: 0px;
-  height: 0px;
-  
+.card .additional {
   position: absolute;
-  left: 50px;
-  top: 100px;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(#A6CCCE, #A6CCCE);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
 }
 
-p.text-bubble:after {
-  content: '';
-  
-  width: 0px;
-  height: 0px;
-  
-  border: 12px solid;
-  border-color: #A6CCCE transparent transparent #A6CCCE;
-  position: absolute;
-  left: 53px;
-  top: 99px;
+.card.green .additional {
+  background: linear-gradient(#7D7DA1, #7D7DA1);
 }
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  width: 250px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);*/
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .points {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  width: 400px;
+  float: left;
+  position: sticky;
+  left: 160px;
+  height: 100%;
+}
+
+.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.card.green .additional .more-info h1 {
+  color: #FFFFFF;
+}
+
+.card .additional .coords {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card.green .additional .coords {
+  color: #FFFFFF;
+}
+
+.card .additional .coords span + span {
+  float: right;
+}
+
+.card .general {
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+
