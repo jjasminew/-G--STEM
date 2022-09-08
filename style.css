@@ -7,6 +7,7 @@ html, body {
 
 /* css for responsive website on computer */
 @media screen and (min-width: 601px) {
+  /* code for home page */
   .gStem{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
@@ -17,10 +18,6 @@ html, body {
   text-shadow:
     7px 7px 0px #F39A9D,
     20px 20px 0px #6c6383;
- /*font-size: 140px;
-  font-family: 'Istok Web', sans-serif;
-  text-align: center;
-  color: #FFFFFF;*/
   background-color: #7D7DA1;
   padding: 8%;
   margin-top: 0!important;
@@ -41,6 +38,7 @@ html, body {
   padding-right: 21%;
 }
 
+/* code for nav bar */
 .logo{
   width: 58px;
   height: 80px;
@@ -76,6 +74,7 @@ html, body {
   text-decoration-thickness: 5px;
 }
 
+/* code for take action page */
 .actionTitle{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
@@ -112,6 +111,7 @@ html, body {
   color: #F8D78C;
 }
 
+/* code for data page */
 .allPercents {
     font-size: 4vw;
 }
@@ -120,6 +120,7 @@ html, body {
     font-size: 1.3vw;
 }
 
+/* code for resources page */
 .resourceTitle{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
@@ -254,7 +255,7 @@ html, body {
   cursor: pointer;
   transition: 
     background-position .3s var(--_i,.3s), 
-    background-size .3s calc(.3s - var(--_i,.3s));*/
+    background-size .3s calc(.3s - var(--_i,.3s));
 }
 
 .engPic:hover{
@@ -439,6 +440,7 @@ html, body {
 
 /* css for responsive website on phone */
 @media screen and (max-width: 600px) {
+  /*code for home page */
   .gStem{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
@@ -449,10 +451,6 @@ html, body {
   text-shadow:
     3px 3px 0px #F39A9D,
     8px 8px 0px #6c6383;
- /*font-size: 140px;
-  font-family: 'Istok Web', sans-serif;
-  text-align: center;
-  color: #FFFFFF;*/
   background-color: #7D7DA1;
   padding: 8%;
   margin-top: 0!important;
@@ -472,6 +470,8 @@ html, body {
   padding-left: 21%;
   padding-right: 21%;
 }
+
+/* code for nav bar */
 
 .logo{
   width: 25px;
@@ -508,11 +508,12 @@ html, body {
   text-decoration-thickness: 2.5px;
 }
 
+/* code for take action page */
 .actionTitle{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
   font-variation-settings: "wght" 700;
-  font-size: 5rem;
+  font-size: 3.5rem;
   text-align: center;
   color: #FFFFFF;
   text-shadow:
@@ -544,6 +545,7 @@ html, body {
   color: #F8D78C;
 }
 
+/* code for data page */
 .allPercents {
     font-size: 24.5px;
   }
@@ -552,6 +554,7 @@ html, body {
     font-size: 17px;
   }
 
+/* code for resources page */
 .resourceTitle{
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
@@ -620,7 +623,6 @@ html, body {
   font-family: 'Istok Web', sans-serif;
   color: #7D7DA1;
 }
-
 
 .compSciPic{
   height: 250px;
@@ -870,6 +872,7 @@ html, body {
 
 /* css for responsive website on computer */
 @media screen and (min-width: 1171px) {
+  /* code for take action page*/
   .anyoneInfo{
   display: flex;
   flex-direction: row;
@@ -1010,6 +1013,170 @@ html, body {
   padding-top: 10%;
   padding-bottom: 10%;
   margin-right: 2%;
+}
+
+/* code for about us page */
+.aboutUsTitle{
+  font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 9.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow:
+    7px 7px 0px #6eabaf,
+    17px 17px 0px #e1bf70;
+  background-color: #F8D78C;
+  padding: 9%;
+  margin-top: 0!important;
+  }
+
+.allCards{
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.card {
+  width: 650px;
+  height: 400px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.card h1 {
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+
+.card .additional {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(#A6CCCE, #A6CCCE);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.jasmine .additional {
+  background: linear-gradient(#7D7DA1, #7D7DA1);
+}
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  width: 250px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+.card .additional .user-card .role,
+.card .additional .user-card .role2 {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .role2 {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  text-align: center;
+}
+
+.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.card.jasmine .additional .more-info h1 {
+  color: #FFFFFF;
+}
+
+.card .additional .adviceSection {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card.jasmine .additional .adviceSection {
+  color: #FFFFFF;
+}
+
+.card .additional .adviceSection span + span {
+  float: right;
+}
+
+.card .general {
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+.process{
+  text-align: center;
+  margin-top: 8%;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 70px;
+  color: #F39A9D;
 }
 }
 
@@ -1153,41 +1320,206 @@ html, body {
   padding-bottom: 10%;
   margin-bottom: 5%
 }
+
+/* code for about us page */
+.aboutUsTitle{
+  font-family: 'Istok Web', sans-serif;
+  transition: all 0.5s;
+  font-variation-settings: "wght" 700;
+  font-size: 3.5rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow:
+    3px 3px 0px #6eabaf,
+    8px 8px 0px #e1bf70;
+  background-color: #F8D78C;
+  padding: 9%;
+  margin-top: 0!important;
+  }
+
+.allCards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.profileImage{
+  width: 110px;
+  height: 110px;
+}
+
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.card h1 {
+  text-align: center;
+  font-family: 'Istok Web', sans-serif;
+  text-transform: uppercase;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#A6CCCE, #A6CCCE);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.jasmine .additional {
+  background: linear-gradient(#7D7DA1, #7D7DA1);
+}
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);
+}
+
+.card .additional .user-card .role,
+.card .additional .user-card .role2 {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .role2 {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  text-align: center;
+}
+
+.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.card.jasmine .additional .more-info h1 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.card .additional .adviceSection {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 0.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card.jasmine .additional .adviceSection {
+  color: #FFFFFF;
+}
+
+.card .additional .adviceSection span + span {
+  float: right;
+}
+
+.card .general {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.7em;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.7em;
+}
+
+.process{
+  text-align: center;
+  margin-top: 8%;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 45px;
+  color: #F39A9D;
+}
+
 }
 
 @media screen and (min-width: 1451px){
   /* css for the experience page */
-
 .exName{
   text-align: right;
   font-weight: bold;
 }
 
 .box {
-  /* Required properties */
   position: relative;
   background: white;
-
-  /* Use  your own styles here */
   margin: 45px;
   width: 500px;
   height: 270px;
-
   text-align: left;
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 90%;
   margin-top: 3%;
   padding-top: 4%;
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
-
-  
   --b: 8px;  /* border thickness*/
   --s: 60px; /* size of the corner*/
  --g: 14px; /* the gap*/
   --c: #F39A9D; 
-  
   padding: calc(var(--b) + var(--g));
   background-image:
     conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
@@ -1209,7 +1541,6 @@ html, body {
   --_i: 0s;
 }
   
-/* This is what creates the shadow. */
 .box:before {
     content: "";
     z-index: -1;
@@ -1226,11 +1557,6 @@ html, body {
     border-radius: inherit;
 }
 
-/* 
-* Prevents issues when the parent creates a 
-* stacking context. (For example, using the transform
-* property )
-*/
 .box::after {
     content: "";
     z-index: -1;
@@ -1297,22 +1623,17 @@ html, body {
 
 @media screen and (max-width: 1450px){
   /* css for the experience page */
-
 .exName{
   text-align: right;
   font-weight: bold;
 }
 
 .box {
-  /* Required properties */
   position: relative;
   background: white;
-
-  /* Use  your own styles here */
   margin: 45px;
   width: 473px;
   height: 250px;  
-
   text-align: left;
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
@@ -1324,12 +1645,10 @@ html, body {
   padding-right: 3%;
   padding-left: 3%;
   padding-bottom: 3%;
-
   --b: 8px;  /* border thickness*/
   --s: 60px; /* size of the corner*/
  --g: 14px; /* the gap*/
   --c: #F39A9D; 
-  
   padding: calc(var(--b) + var(--g));
   background-image:
     conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
@@ -1351,7 +1670,6 @@ html, body {
   --_i: 0s;
 }
 
-/* This is what creates the shadow. */
 .box:before {
     content: "";
     z-index: -1;
@@ -1367,12 +1685,7 @@ html, body {
     transition: opacity 0.3s;
     border-radius: inherit;
 }
-
-/* 
-* Prevents issues when the parent creates a 
-* stacking context. (For example, using the transform
-* property )
-*/
+  
 .box::after {
     content: "";
     z-index: -1;
@@ -1437,8 +1750,9 @@ html, body {
 }
 }
 
-
+/* css for responsive website on computer */
 @media screen and (min-width: 1001px) {
+  /* code for data page */
   .allFindingsTitle {
     font-size: 20px;
     padding-left: 3%;
@@ -1449,7 +1763,9 @@ html, body {
   }
 }
 
+/* css for responsive website on phone */
 @media screen and (max-width: 1000px) {
+  /* code for data page */
   .allFindingsTitle {
     font-size: 15px;
     padding-left: 3%;
@@ -1460,6 +1776,7 @@ html, body {
   }
 }
 
+/* code to rotate take action boxes*/
 .anyoneInfo1:hover{
   transform: rotate(-5deg);
 }
@@ -1484,7 +1801,6 @@ html, body {
   transform: rotate(5deg);
 }
 
-
 .anyoneInfo3:hover{
   transform: rotate(-5deg);
 }
@@ -1497,15 +1813,7 @@ html, body {
   transform: rotate(-5deg);
 }
 
-.meetTitle{
-  font-size: 100px;
-  font-family: 'Istok Web', sans-serif;
-  text-align: center;
-  color: #FFFFFF;
-  background-color:  #A6CCCE;
-  padding: 6%;
-}
-
+/* code for data page*/
 .firstPercent {
   padding-left: 9%;
   font-family: 'Istok Web', sans-serif; 
@@ -1599,7 +1907,6 @@ li{
   line-height: 155%;
 }
 
-
 .findingsTitle2{
   font-family: 'Istok Web', sans-serif; 
   color: #F8D78C;
@@ -1659,7 +1966,6 @@ li{
   border-color: #7D7DA1;
 }
 
-
 .data1{
   border: none;
   width: 52vw; 
@@ -1683,166 +1989,4 @@ li{
   width: 52vw; 
   height: 20vw;
 }
-
-.aboutUsTitle{
-  font-family: 'Istok Web', sans-serif;
-  transition: all 0.5s;
-  font-variation-settings: "wght" 700;
-  font-size: 9rem;
-  text-align: center;
-  color: #ffffff;
-  text-shadow:
-    7px 7px 0px #6eabaf,
-    17px 17px 0px #d7be84;
-  background-color: #F8D78C;
-  padding: 9%;
-  margin-top: 0!important;
-  }
-
-.allCards{
-  top: 20%;
-  position: relative;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-}
-
-.card {
-  width: 650px;
-  height: 400px;
-  background-color: #fff;
-  background: linear-gradient(#f8f8f8, #fff);
-  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  margin: 1.5rem;
-}
-
-.card h1 {
-  text-align: center;
-  font-family: 'Istok Web', sans-serif;
-  text-transform: uppercase;
-  font-size: 33px;
-}
-
-.card .additional {
-  position: absolute;
-  width: 250px;
-  height: 100%;
-  background: linear-gradient(#A6CCCE, #A6CCCE);
-  transition: width 0.4s;
-  overflow: hidden;
-  z-index: 2;
-}
-
-.card.green .additional {
-  background: linear-gradient(#7D7DA1, #7D7DA1);
-}
-
-
-.card:hover .additional {
-  width: 100%;
-  border-radius: 0 5px 5px 0;
-}
-
-.card .additional .user-card {
-  width: 250px;
-  height: 100%;
-  position: relative;
-  float: left;
-}
-
-.card .additional .user-card::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 10%;
-  right: -2px;
-  height: 80%;
-  border-left: 2px solid rgba(0,0,0,0.025);*/
-}
-
-.card .additional .user-card .level,
-.card .additional .user-card .points {
-  top: 15%;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: 'Istok Web', sans-serif;
-  font-size: 1.3em;
-  font-weight: bold;
-  background: rgba(0,0,0,0.15);
-  padding: 0.125rem 0.75rem;
-  border-radius: 100px;
-  white-space: nowrap;
-}
-
-.card .additional .user-card .points {
-  top: 85%;
-}
-
-.card .additional .user-card svg {
-  top: 50%;
-}
-
-.card .additional .more-info {
-  width: 400px;
-  float: left;
-  position: sticky;
-  left: 160px;
-  height: 100%;
-}
-
-.card .additional .more-info h1 {
-  color: #fff;
-  margin-bottom: 0;
-}
-
-.card.green .additional .more-info h1 {
-  color: #FFFFFF;
-}
-
-.card .additional .coords {
-  margin: 0 1rem;
-  color: #fff;
-  font-size: 1rem;
-  font-family: 'Nunito', sans-serif;
-}
-
-.card.green .additional .coords {
-  color: #FFFFFF;
-}
-
-.card .additional .coords span + span {
-  float: right;
-}
-
-.card .general {
-  width: 400px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  box-sizing: border-box;
-  padding: 1rem;
-  padding-top: 0;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-
-.card .general .more {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  font-size: 0.9em;
-}
-
 
