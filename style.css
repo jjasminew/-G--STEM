@@ -31,12 +31,41 @@ html, body {
 }
 
 .homeDescript{
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-left: 21%;
   padding-right: 21%;
 }
+
+.brandDescript{
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+
+.brand2Descript{
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+  padding-bottom: 8%;
+}
+
+.logoHomePage{
+  margin-top: -80px;
+  width: 415px;
+  height: 580px;
+  margin-bottom: -50px;
+}
+
+.logoAlign{
+  display: flex;
+  justify-content: center;
+} 
 
 /* code for nav bar */
 .logo{
@@ -184,7 +213,12 @@ html, body {
 
 .summerDescription{
   font-size: 20px;
+  line-height: 35px;
   font-family: 'Nunito', sans-serif;
+}
+
+.clickLink{
+  color: #F39A9D;
 }
 
 .compSciPic{
@@ -312,6 +346,7 @@ html, body {
   color: white;
   font-size: 20px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -325,6 +360,7 @@ html, body {
   color: white;
   font-size: 20px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -343,6 +379,7 @@ html, body {
   color: white;
   font-size: 20px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -470,6 +507,37 @@ html, body {
   padding-left: 21%;
   padding-right: 21%;
 }
+
+.brandDescript{
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+
+.brand2Descript{
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+  padding-bottom: 8%;
+}
+
+.logoHomePage{
+  margin-top: -45px;
+  width: 180px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -40px;
+}
+
+.logoAlign{
+  display: flex;
+  justify-content: center;
+} 
 
 /* code for nav bar */
 
@@ -618,6 +686,10 @@ html, body {
   font-family: 'Nunito', sans-serif;
 }
 
+.clickLink{
+  color: #F39A9D;
+}
+
 .subResourceTitle2{
   font-size: 30px;
   font-family: 'Istok Web', sans-serif;
@@ -752,6 +824,7 @@ html, body {
   color: white;
   font-size: 15px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -765,6 +838,7 @@ html, body {
   color: white;
   font-size: 15px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -783,6 +857,7 @@ html, body {
   color: white;
   font-size: 15px;
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1177,6 +1252,44 @@ html, body {
   font-family: 'Istok Web', sans-serif;
   font-size: 70px;
   color: #F39A9D;
+  margin-bottom: 3%;
+}
+
+.toastHeader{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 55px;
+  color: #F39A9D;
+  padding-left: 5%;
+}
+
+.toast{
+  font-family: 'Nunito' , sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-size: 23px;
+}
+
+.wireframeHeader{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 70px;
+  color: #A6CCCE;
+  margin-bottom: 3%;
+}
+  
+.wireframe{
+  width: 1300px;
+  height: 600px;
+  border: solid 10px;
+  border-color: #A6CCCE;
+  margin-bottom: 7%;
+}  
+
+.wireframeAlign{
+  display: flex;
+  justify-content: center;
 }
 }
 
@@ -1493,6 +1606,42 @@ html, body {
   color: #F39A9D;
 }
 
+.toastHeader{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 30px;
+  color: #F39A9D;
+  padding-left: 5%;
+}
+
+.toast{
+  font-family: 'Nunito' , sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  font-size: 15px;
+}
+
+.wireframeHeader{
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 45px;
+  color: #A6CCCE;
+  margin-bottom: 3%;
+}
+  
+.wireframe{
+  width: 470px;
+  height: 230px;
+  border: solid 5px;
+  border-color: #A6CCCE;
+  margin-bottom: 10%;
+}  
+
+.wireframeAlign{
+  display: flex;
+  justify-content: center;
+}
 }
 
 @media screen and (min-width: 1451px){
@@ -1989,4 +2138,3 @@ li{
   width: 52vw; 
   height: 20vw;
 }
-
