@@ -24,14 +24,14 @@ html, body {
   } 
 
   .homeTitle{
-  font-size: 50px;
+  font-size: 70px;
   font-family: 'Istok Web', sans-serif; 
   text-align: center;
   color: #F39A9D;
 }
 
 .homeDescript{
-  font-size: 18px;
+  font-size: 21px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-left: 21%;
@@ -39,7 +39,7 @@ html, body {
 }
 
 .brandDescript{
-  font-size: 18px;
+  font-size: 21px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-left: 21%;
@@ -47,7 +47,7 @@ html, body {
 }
 
 .brand2Descript{
-  font-size: 18px;
+  font-size: 21px;
   font-family: 'Nunito', sans-serif;
   text-align: center;
   padding-left: 21%;
