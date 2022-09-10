@@ -323,7 +323,7 @@ html, body {
   height: 380px;
   width: 380px;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 30%;
   border-radius: 50%;
 }
 
@@ -339,6 +339,11 @@ html, body {
 
 .rolemodelpics:hover .overlay {
   opacity: 1;
+}
+
+.roleModelsName{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 27px;
 }
 
 .gracebio {
@@ -369,11 +374,6 @@ html, body {
   text-align: center;
 }
 
-.roleModelsName{
-  font-family: 'Istok Web', sans-serif;
-  font-size: 27px;
-}
-
 .tierabio {
   font-family: 'Nunito', sans-serif; 
   color: white;
@@ -388,12 +388,97 @@ html, body {
   text-align: center;
 }
 
+.sofiabio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.katherinebio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.margaretbio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.joybio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.yokybio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.swatibio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 .resourceHeader{
   font-size: 70px;
   font-family: 'Istok Web', sans-serif; 
   text-align: center;
   color: #A6CCCE;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
@@ -865,6 +950,91 @@ html, body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+  
+ .katherinebio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+.margaretbio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sofiabio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.joybio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.yokybio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+  .swatibio {
+  font-family: 'Nunito', sans-serif; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 .resourceHeader{
   font-size: 45px;
@@ -1659,7 +1829,7 @@ html, body {
   height: 270px;
   text-align: left;
   font-family: 'Nunito', sans-serif;
-  font-size: 90%;
+  font-size: 100%;
   margin-top: 3%;
   padding-top: 4%;
   padding-right: 3%;
@@ -2089,28 +2259,28 @@ li{
 
 .dataChart1{
   margin-left: 3.5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   border: solid 30px;
   border-color: #F39A9D;
 }
 
 .dataChart2{
   margin-left: 3.5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   border: solid 30px;
   border-color: #A6CCCE;
 }
 
 .dataChart3{
   margin-left: 3.5%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   border: solid 30px;
   border-color: #F8D78C;
 }
 
 .dataChart4{
   margin-left: 4%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   border: solid 30px;
   border-color: #7D7DA1;
 }
@@ -2138,3 +2308,4 @@ li{
   width: 52vw; 
   height: 20vw;
 }
+
