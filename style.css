@@ -564,6 +564,12 @@ html, body {
   display: flex;
   justify-content: space-evenly;
 }
+
+.womenJoin4{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
 }
 
 /* css for responsive website on phone */
