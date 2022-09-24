@@ -108,7 +108,7 @@ html, body {
   font-family: 'Istok Web', sans-serif;
   transition: all 0.5s;
   font-variation-settings: "wght" 700;
-  font-size: 12rem;
+  font-size: 11rem;
   text-align: center;
   color: #ffffff;
   text-shadow:
@@ -1473,6 +1473,280 @@ html, body {
   display: flex;
   justify-content: center;
 }
+
+.scrollAction {
+  position: absolute;
+  margin-top: 2rem;
+  text-align: center;
+  height: 150px;
+  overflow: hidden;
+  width: 75px;
+  background: transparent;
+  top: 42%;
+  right: 2%;
+}
+
+  .scroll__text {
+    position: absolute;
+    transform-origin: 37px 37px;
+    transform: rotate(90deg);
+    color: white;
+    z-index: 999;
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 3px;
+  }
+
+  .scroll__line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1px;
+    height: 100%;
+    z-index: 10;
+    background-color: white;
+    animation: scroll 3s infinite normal;
+    transform: translateY(0);
+    margin-right: 5px;
+  } 
+
+    .scrollAction:after,
+    .scrollAction:before{
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: white;
+      position: absolute;
+    }
+    
+    .scrollAction:before {
+      bottom: 0;
+      transform: rotate(-30deg);
+      transform-origin: 0px 15px;
+    }
+    .scrollAction:after{
+      bottom: 0;
+      transform: rotate(30deg);
+      transform-origin: 0px 15px;
+    }
+  
+  .scroll__arrow {
+    display: none;
+    position: relative;
+    z-index: 111;
+    padding-left: 1px;
+    top: -13px;
+  }
+
+
+@keyframes scroll {
+  0% {
+    transform: translate3d(0, -100%, 0)
+  }
+  15% {
+    transform: translate3d(0, -95%, 0)
+  }
+  85% {
+    transform: translate3d(0, 95%, 0)
+  }
+  100% {
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+
+.scrollResources {
+  position: absolute;
+  margin-top: 2rem;
+  text-align: center;
+  height: 150px;
+  overflow: hidden;
+  width: 75px;
+  background: transparent;
+  top: 42%;
+  right: 2%;
+}
+
+    .scrollResources:after,
+    .scrollResources:before{
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: white;
+      position: absolute;
+    }
+    
+    .scrollResources:before {
+      bottom: 0;
+      transform: rotate(-30deg);
+      transform-origin: 0px 15px;
+    }
+    .scrollResources:after{
+      bottom: 0;
+      transform: rotate(30deg);
+      transform-origin: 0px 15px;
+    }
+  
+
+@keyframes scrollResources {
+  0% {
+    transform: translate3d(0, -100%, 0)
+  }
+  15% {
+    transform: translate3d(0, -95%, 0)
+  }
+  85% {
+    transform: translate3d(0, 95%, 0)
+  }
+  100% {
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+.scrollExperiences {
+  position: absolute;
+  margin-top: 2rem;
+  text-align: center;
+  height: 150px;
+  overflow: hidden;
+  width: 75px;
+  background: transparent;
+  top: 47%;
+  right: 2%;
+}
+
+    .scrollExperiences:after,
+    .scrollExperiences:before{
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: white;
+      position: absolute;
+    }
+    
+    .scrollExperiences:before {
+      bottom: 0;
+      transform: rotate(-30deg);
+      transform-origin: 0px 15px;
+    }
+    .scrollExperiences:after{
+      bottom: 0;
+      transform: rotate(30deg);
+      transform-origin: 0px 15px;
+    }
+  
+@keyframes scrollExperiences {
+  0% {
+    transform: translate3d(0, -100%, 0)
+  }
+  15% {
+    transform: translate3d(0, -95%, 0)
+  }
+  85% {
+    transform: translate3d(0, 95%, 0)
+  }
+  100% {
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+.scrollHome {
+  right: 1%;
+  position: absolute;
+  margin-top: 2rem;
+  text-align: center;
+  height: 150px;
+  overflow: hidden;
+  width: 75px;
+  background: transparent;
+  top: 47%;
+}
+
+    .scrollHome:after,
+    .scrollHome:before{
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: white;
+      position: absolute;
+    }
+    
+    .scrollHome:before {
+      bottom: 0;
+      transform: rotate(-30deg);
+      transform-origin: 0px 15px;
+    }
+    .scrollHome:after{
+      bottom: 0;
+      transform: rotate(30deg);
+      transform-origin: 0px 15px;
+    }
+  
+@keyframes scrollHome {
+  0% {
+    transform: translate3d(0, -100%, 0)
+  }
+  15% {
+    transform: translate3d(0, -95%, 0)
+  }
+  85% {
+    transform: translate3d(0, 95%, 0)
+  }
+  100% {
+    transform: translate3d(0, 100%, 0)
+  }
+}
+
+.scrollAbout {
+  position: absolute;
+  margin-top: 2rem;
+  text-align: center;
+  height: 150px;
+  overflow: hidden;
+  width: 75px;
+  background: transparent;
+  top: 65%;
+  right: 1%;
+}
+
+    .scrollAbout:after,
+    .scrollAbout:before{
+      content: '';
+      width: 1px;
+      height: 15px;
+      background: white;
+      position: absolute;
+    }
+    
+    .scrollAbout:before {
+      bottom: 0;
+      transform: rotate(-30deg);
+      transform-origin: 0px 15px;
+    }
+    .scrollAbout:after{
+      bottom: 0;
+      transform: rotate(30deg);
+      transform-origin: 0px 15px;
+    }
+  
+@keyframes scrollAbout {
+  0% {
+    transform: translate3d(0, -100%, 0)
+  }
+  15% {
+    transform: translate3d(0, -95%, 0)
+  }
+  85% {
+    transform: translate3d(0, 95%, 0)
+  }
+  100% {
+    transform: translate3d(0, 100%, 0)
+  }
+}
 }
 
 /* css for responsive website on phone */
@@ -1824,6 +2098,35 @@ html, body {
   display: flex;
   justify-content: center;
 }
+
+.scroll__text{
+  position: absolute;
+  transform-origin: 37px 37px;
+  transform: rotate(90deg);
+  color: transparent;
+  z-index: 999;
+  width: 150px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 3px;
+}
+
+.scroll__line{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 1px;
+  height: 100%;
+  z-index: 10;
+  background-color: transparent;
+  animation: scroll 3s infinite normal;
+  transform: translateY(0);
+  margin-right: 5px;
+} 
+  
 }
 
 @media screen and (min-width: 1451px){
@@ -2320,4 +2623,3 @@ li{
   width: 52vw; 
   height: 20vw;
 }
-
