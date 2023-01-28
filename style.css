@@ -171,6 +171,7 @@ html, body {
   color: #F39A9D;
 }
 
+/* border animation effects */
 .programPic{
   float: left;
   height: 370px;
@@ -221,6 +222,7 @@ html, body {
   color: #F39A9D;
 }
 
+/* border animation effects */
 .compSciPic{
   float: right;
   height: 370px;
@@ -269,6 +271,7 @@ html, body {
     color:  #A6CCCE;
 }
 
+/* border animation effects */
 .engPic{
   float: left;
   height: 370px;
@@ -310,6 +313,7 @@ html, body {
   list-style-position: inside;
 }
 
+/* role models alignment and sizes*/
 .roleModels{
   display: flex;
   justify-content: space-evenly;
@@ -327,6 +331,7 @@ html, body {
   border-radius: 50%;
 }
 
+/* role models image-to-text effect */
 .overlay {
   border-radius: 50%;
   position: absolute;
@@ -472,7 +477,7 @@ html, body {
   text-align: center;
 }
 
-
+/*why you should join stem section */
 .resourceHeader{
   font-size: 70px;
   font-family: 'Istok Web', sans-serif; 
@@ -482,7 +487,8 @@ html, body {
   margin-bottom: 5%;
 }
 
-  .womenJoin {
+/* code for designing layout of the cards */
+.womenJoin {
 	position: relative;
 	width: 600px;
 	height: 300px;
@@ -505,6 +511,7 @@ html, body {
 	filter: drop-shadow(0 0 8px #0005);
 }
 
+/* code for quotes on the top and bottom of the cards */
 .womenJoin::before,
 .womenJoin::after {
 	position: absolute;
@@ -637,7 +644,6 @@ html, body {
 } 
 
 /* code for nav bar */
-
 .logo{
   width: 25px;
   height: 35px;
@@ -745,6 +751,7 @@ html, body {
   text-align: center;
 }
 
+/* border animation effects */
 .programPic{
   height: 250px;
   width: 370px;
@@ -793,6 +800,7 @@ html, body {
   color: #7D7DA1;
 }
 
+/* border animation effects */
 .compSciPic{
   height: 250px;
   width: 370px;
@@ -844,6 +852,7 @@ html, body {
     color: #A6CCCE;
 }
 
+/* border animation effects */
 .engPic{
   height: 250px;
   width: 370px;
@@ -887,7 +896,8 @@ html, body {
   list-style-position: inside;
   text-align: center;
 }
-  
+
+/* role models alignment and sizes*/
 .rolemodelpics {
   display: flex;
   justify-content: space-evenly;
@@ -902,6 +912,7 @@ html, body {
   border-radius: 50%;
 }
 
+/* role models image-to-text effect */
 .overlay {
   border-radius: 50%;
   position: absolute;
@@ -1033,7 +1044,7 @@ html, body {
   text-align: center;
 }
 
-  .swatibio {
+.swatibio {
   font-family: 'Nunito', sans-serif; 
   color: white;
   font-size: 15px;
@@ -1047,7 +1058,7 @@ html, body {
   text-align: center;
 }
 
-
+/* why you should join stem section */
 .resourceHeader{
   font-size: 45px;
   font-family: 'Istok Web', sans-serif; 
@@ -1057,6 +1068,7 @@ html, body {
   margin-bottom: 5%;
 }
 
+/* code for designing layout of the cards */
 .womenJoin {
 	position: relative;
 	width: 400px;
@@ -1083,6 +1095,7 @@ html, body {
 	filter: drop-shadow(0 0 8px #0005);
 }
 
+/* code for quotes on the top and bottom of the cards */
 .womenJoin::before,
 .womenJoin::after {
 	position: absolute;
@@ -1130,6 +1143,7 @@ html, body {
 /* css for responsive website on computer */
 @media screen and (min-width: 1171px) {
   /* code for take action page*/
+  /* take action cards for anyone */
   .anyoneInfo{
   display: flex;
   flex-direction: row;
@@ -1181,6 +1195,7 @@ html, body {
   margin-right: 2%;
 }
 
+/* take action cards for students */
 .studentInfo{
   display: flex;
   flex-direction: row;
@@ -1226,6 +1241,7 @@ html, body {
   margin-right: 2%;
 }
 
+/* take action cards for school districts */
 .schoolInfo{
   display: flex;
   flex-direction: row;
@@ -1288,12 +1304,13 @@ html, body {
   margin-top: 0!important;
   }
 
+/* code for designing and aligning creator cards */
 .allCards{
   display: flex;
   justify-content: center;
 }
 
-.center {
+.center{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1301,7 +1318,7 @@ html, body {
   border-radius: 50%;
 }
 
-.card {
+.card{
   width: 650px;
   height: 400px;
   background-color: #fff;
@@ -1428,6 +1445,7 @@ html, body {
   font-size: 0.9em;
 }
 
+/* our toast and figma wireframe */
 .process{
   text-align: center;
   margin-top: 8%;
@@ -1474,6 +1492,7 @@ html, body {
   justify-content: center;
 }
 
+/* scroll arrow and scroll text for take action page */
 .scrollAction {
   position: absolute;
   margin-top: 2rem;
@@ -1528,6 +1547,7 @@ html, body {
       transform: rotate(-30deg);
       transform-origin: 0px 15px;
     }
+  
     .scrollAction:after{
       bottom: 0;
       transform: rotate(30deg);
@@ -1542,7 +1562,7 @@ html, body {
     top: -13px;
   }
 
-
+/* scroll arrow animation for take action page */
 @keyframes scroll {
   0% {
     transform: translate3d(0, -100%, 0)
@@ -1558,7 +1578,7 @@ html, body {
   }
 }
 
-
+/* scroll arrow and scroll text for resources page */
 .scrollResources {
   position: absolute;
   margin-top: 2rem;
@@ -1585,13 +1605,14 @@ html, body {
       transform: rotate(-30deg);
       transform-origin: 0px 15px;
     }
+  
     .scrollResources:after{
       bottom: 0;
       transform: rotate(30deg);
       transform-origin: 0px 15px;
     }
   
-
+/* scroll arrow animation for resources page */
 @keyframes scrollResources {
   0% {
     transform: translate3d(0, -100%, 0)
@@ -1607,6 +1628,7 @@ html, body {
   }
 }
 
+/* scroll arrow and scroll text for experiences page */
 .scrollExperiences {
   position: absolute;
   margin-top: 2rem;
@@ -1638,7 +1660,8 @@ html, body {
       transform: rotate(30deg);
       transform-origin: 0px 15px;
     }
-  
+
+/* scroll arrow animation for experiences page */
 @keyframes scrollExperiences {
   0% {
     transform: translate3d(0, -100%, 0)
@@ -1654,6 +1677,7 @@ html, body {
   }
 }
 
+/* scroll arrow for home page */
 .scrollHome {
   right: 1%;
   position: absolute;
@@ -1685,7 +1709,8 @@ html, body {
       transform: rotate(30deg);
       transform-origin: 0px 15px;
     }
-  
+
+/* scroll arrow animation for home page */
 @keyframes scrollHome {
   0% {
     transform: translate3d(0, -100%, 0)
@@ -1701,6 +1726,7 @@ html, body {
   }
 }
 
+/* scroll arrow for about page */
 .scrollAbout {
   position: absolute;
   margin-top: 2rem;
@@ -1732,7 +1758,8 @@ html, body {
       transform: rotate(30deg);
       transform-origin: 0px 15px;
     }
-  
+
+/* scroll arrow animation for about page */
 @keyframes scrollAbout {
   0% {
     transform: translate3d(0, -100%, 0)
@@ -1751,6 +1778,8 @@ html, body {
 
 /* css for responsive website on phone */
 @media screen and (max-width: 1170px) {
+/* code for take action page*/
+/* take action cards for anyone */
 .anyoneInfo{
   display: flex;
   flex-direction: column;
@@ -1801,6 +1830,7 @@ html, body {
   margin-bottom: 5%
 }
 
+/* take action cards for students */
 .studentInfo{
   display: flex;
   flex-direction: column;
@@ -1845,6 +1875,7 @@ html, body {
   margin-bottom: 5%
 }
 
+/* take action cards for school districts */
 .schoolInfo{
   display: flex;
   flex-direction: column;
@@ -1906,6 +1937,7 @@ html, body {
   margin-top: 0!important;
   }
 
+/* code for designing and aligning creator cards */
 .allCards{
   display: flex;
   flex-direction: column;
@@ -2054,6 +2086,7 @@ html, body {
   font-size: 0.7em;
 }
 
+/* our toast and figma wireframe */
 .process{
   text-align: center;
   margin-top: 8%;
@@ -2099,6 +2132,7 @@ html, body {
   justify-content: center;
 }
 
+/* code for scroll arrow */
 .scroll__text{
   position: absolute;
   transform-origin: 37px 37px;
@@ -2129,13 +2163,15 @@ html, body {
   
 }
 
+/* css for responsive website on computer */
 @media screen and (min-width: 1451px){
-  /* css for the experience page */
+/* css for the experience page */
 .exName{
   text-align: right;
   font-weight: bold;
 }
 
+/* border animation effects */
 .box {
   position: relative;
   background: white;
@@ -2174,7 +2210,8 @@ html, body {
   --_p: calc(var(--g)/2);
   --_i: 0s;
 }
-  
+
+/* drop shadow effect */
 .box:before {
     content: "";
     z-index: -1;
@@ -2203,6 +2240,7 @@ html, body {
     border-radius: inherit;
 }
 
+/* experiences alignment for boxes */
 .box{
   display: flex;
   justify-content: center;
@@ -2256,12 +2294,13 @@ html, body {
 }
 
 @media screen and (max-width: 1450px){
-  /* css for the experience page */
+/* css for the experience page */
 .exName{
   text-align: right;
   font-weight: bold;
 }
 
+/* border animation effects */
 .box {
   position: relative;
   background: white;
@@ -2304,6 +2343,7 @@ html, body {
   --_i: 0s;
 }
 
+/* drop shadow effect */
 .box:before {
     content: "";
     z-index: -1;
@@ -2332,6 +2372,7 @@ html, body {
     border-radius: inherit;
 }
 
+/* experiences alignment for boxes */
 .box{
   display: flex;
   justify-content: center;
@@ -2448,6 +2489,7 @@ html, body {
 }
 
 /* code for data page*/
+/* percentages at the bottom of data page */
 .firstPercent {
   padding-left: 9%;
   font-family: 'Istok Web', sans-serif; 
@@ -2499,6 +2541,7 @@ html, body {
   align-items: flex-start;
 }
 
+/* findings titles and descriptions */
 .problemTitle{
   font-family: 'Istok Web', sans-serif; 
   color: #F39A9D;
@@ -2551,6 +2594,7 @@ li{
   color: #7D7DA1;
 }
 
+/* data chart alignments */
 .dataNumber1{
   padding-top: 1%;
   display: flex;
@@ -2572,6 +2616,7 @@ li{
   align-items: flex-start;
 }
 
+/* data chart sizing */
 .dataChart1{
   margin-left: 3.5%;
   margin-bottom: 4%;
@@ -2600,6 +2645,7 @@ li{
   border-color: #7D7DA1;
 }
 
+/* data chart borders */
 .data1{
   border: none;
   width: 52vw; 
